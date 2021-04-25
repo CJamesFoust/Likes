@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headContainer">
+            <span class="side"> </span>
+            <span class="header">
+                Network
+            </span>
+            <span class="side"> </span>
+        </div>
+
+        <span class="yourFeed">
+            Your Feed
+        </span>
+
+        <div class="mainContent">
+            <span class="side"> </span>
+
+            <div class="content">
+                <div class="profileBox">
+                    <div class="yikes">
+                        <span><img src="/assets/image.jpeg" alt="Image of the user" height="160px"></span>
+                        <span class="addAvatar"><a href="#">Add an avatar</a></span>
+                        <span class="userName">Christopher Foust</span>
+                    </div>
+                </div>
+                <span class="feedContainer">
+
+                    <div class="feedNeil">
+                        <div class="feedFunctions">
+                            <span class="names">Neil M</span>
+                            <span class="likes" id="likes0">0 like(s)</span>
+                            <input type="button" value="Like" class="buttons" onclick="increaseLikes0()">
+                        </div>
+                        <span class="feedUpdates">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></span>                        
+                    </div>
+
+                    <div class="feedNichole">
+                        <div class="feedFunctions">
+                            <span class="names">Nichole K</span>
+                            <span class="likes" id="likes1">0 like(s)</span>
+                            <input type="button" value="Like" class="buttons" onclick="increaseLikes1()">
+                        </div>
+                        <span class="feedUpdates">Just finished my <a href="#">next comic</a>, check it out.</span>
+                    </div>
+
+                    <div class="feedJim">
+                        <div class="feedFunctions">
+                            <span class="names">Jim R</span>
+                            <span class="likes" id="likes2">0 like(s)</span>
+                            <input type="button" value="Like" class="buttons" onclick="increaseLikes2()">
+                        </div>
+                        <span class="feedUpdates">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</span>
+                    </div>
+
+                </span>
+            </div>
+
+            <span class="side"> </span>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

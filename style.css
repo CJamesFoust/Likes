@@ -1,0 +1,125 @@
+.headContainer {
+    display: flex;
+    width: 100%;
+}
+
+.side {
+    flex: 1;
+}
+
+.header {
+    flex:5;
+    color: white;
+    background-color: black;
+    width: 80%;
+    height: 80px;
+    line-height: 180%;
+    padding-left: 20px;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.yourFeed {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mainContent {
+    display: flex;
+}
+
+.content {
+    color: black;
+    width: 100%;
+    flex: 5;
+    display: flex;
+}
+
+.profileBox {
+    flex: 2;
+}
+
+.yikes {    
+    border: 2px solid black;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.feedContainer {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedNeil {
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.feedNichole {
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 25px;
+}
+
+.feedJim {
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.feedFunctions {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.names {
+    flex: 5;
+    font-family: 'Hind', sans-serif;
+    line-height: 40px;
+    font-size: 1.8rem;
+}
+
+.likes {
+    flex: 3;
+    text-align: right;
+    padding-right: 30px;
+    line-height: 40px;
+}
+
+.buttons {
+    flex: 1;
+    color: black;
+    background-color: rgb(255, 217, 102);
+    padding: 10px 5px;
+    border: 3px solid black;
+    box-shadow: 2px 3px 0px 0px;
+    font-size: 1.3rem;
+}
+
+.feedUpdates {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.addAvatar {
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.userName {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
